@@ -4,25 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina inicial</title>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>Mi primer sitio web</h1>
-      <img
-        src="../images/Mikaelito.jpg"
-        alt="Mikaelito normal"
-        height="200"
-        width="200"
-      />
+    <header class="rubik-bubbles-regular">
+      <div><h1>Welcome to Mikaelo's Petshop</h1></div>
     </header>
-    <nav>
-      <ul>
-        Inicio
-        <a href="productos.html">Productos </a>
-        <a href="resenas.html">Reseñas</a>
-        <a href="contacto.html">Contacto</a>
-      </ul>
+    <nav class="rubik-bubbles-regular container">
+      <div class="no-margin">
+        <img
+          class="item no-margin"
+          src="../images/Mikaelito.jpg"
+          alt="Mikaelito normal"
+          height="80"
+          width="80"
+        />
+      </div>
+      <div>
+        <ul class="container">
+          <h2 class="no-margin"><a href="index.html">Inicio</a></h2>
+          <li class="item"><a href="productos.html">Productos </a></li>
+          <li class="item"><a href="resenas.html">Reseñas</a></li>
+          <li class="item"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
     </nav>
 
     <main>
@@ -46,6 +57,8 @@
       </section>
     </main>
 
-    <footer>Vuelvas prontos - Copyright 2024</footer>
+    <footer class="rubik-bubbles-regular">
+      Mikaelo and Lixttor - Copyright 2024
+    </footer>
   </body>
 </html>
