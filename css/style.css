@@ -1,13 +1,19 @@
 body {
     margin: 0;
+    background-color: #f8ee94; 
+   
+}  
+ 
+h1  {
+    text-align: center;
 }
 
 header {
-    background-color: #a4cae0;
+    background-color: #5789a7;
 }
 
 footer {
-    background-color: #a4cae0;
+    background-color: #5789a7;
 }
 
 ul {
@@ -16,7 +22,7 @@ ul {
 
 ul a {
     text-decoration: none;
-    color: saddlebrown;
+    color: rgb(206, 215, 224);
     padding: 1vw;
 }
 
@@ -35,10 +41,11 @@ ul a {
 }
 
 .container {
-    background-color:#a4cae0;
+    background-color:#5789a7;
     display: flex;
 }
 
 .item {
     display: inline-flex;
-}
+}  
+  
